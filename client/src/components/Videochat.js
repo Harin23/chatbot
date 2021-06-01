@@ -50,6 +50,11 @@ class Videochat extends Component {
                 loadingComponent={Loader}
                 interfaceConfig={this.interfaceConfig}
                 config={this.config}
+                containerStyle={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+              }}
             />
         );
     }
